@@ -21,7 +21,7 @@ export function Header({ subtitle, title }: HeaderProps) {
             document.body.appendChild(script);
             cont++;
         }
-    }, []);
+    }, [cont]);
 
     return (
         <header className="relative min-h-screen w-full bg-zinc-950 flex flex-col items-center justify-center pt-36 sm:py-24 px-4">

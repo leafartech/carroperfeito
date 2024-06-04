@@ -85,7 +85,7 @@ export default function Page() {
       >
         <div className="flex flex-col items-center gap-8">
           <div className="flex flex-col gap-2 text-center">
-            <h2 className="text-black font-bold text-2xl sm:text-[40px] sm:leading-[3rem] uppercase">QUEM É ROGÉRIO OLIVEIRA, CONSULTOR E FUNDADOR DO "CARRO PERFEITO"?</h2>
+            <h2 className="text-black font-bold text-2xl sm:text-[40px] sm:leading-[3rem] uppercase">QUEM É ROGÉRIO OLIVEIRA, CONSULTOR E FUNDADOR DO {`"`}CARRO PERFEITO{`"`}?</h2>
           </div>
           <div className="w-full max-w-3xl flex flex-col items-center gap-4">
             <div className="w-[256px]">
