@@ -45,6 +45,7 @@ export function Header({ subtitle, title }: HeaderProps) {
                 <div className="flex flex-col gap-2 text-center" id="form">
                     <h1 className="text-white font-semibold text-3xl sm:text-[40px] sm:leading-[3rem]">{title}</h1>
                     <p className="text-zinc-300 text-lg">{subtitle}</p>
+                    <p className="text-zinc-300 text-lg">Preencha o Formulário abaixo para finalizar sua inscrição</p>
                     <div className={`h-[326px] ${"_form_1"}`}></div>
                 </div>
                 <div className="flex flex-col items-center gap-4 text-center">
